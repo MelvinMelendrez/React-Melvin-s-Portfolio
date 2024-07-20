@@ -1,0 +1,156 @@
+
+.container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 5px;
+  height: 380px;
+  color: black;
+}
+
+
+.tabsContainer {
+  margin-bottom: 5px;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+}
+
+.tabs {
+  display: flex;
+  overflow-x: scroll;
+  scrollbar-width: none;
+}
+
+.tab {
+  font-family: Arial, sans-serif;
+  font-size: 14px;
+  color: #333;
+  background-color: #f5f5f5;
+  border: none;
+  border-radius: 4px;
+  padding: 8px 12px;
+  margin: 4px;
+  cursor: pointer;
+
+  &:hover {
+    background-color: #ddd;
+  }
+}
+
+.activeTab {
+  font-family: Arial, sans-serif;
+  font-size: 14px;
+  color: #fff;
+  background-color: #333;
+  border: none;
+  border-radius: 4px;
+  padding: 8px 12px;
+  margin: 4px;
+  cursor: pointer;
+}
+
+.searchContainer {
+  width: 70%;
+  margin-left: 4px;
+  margin-right: 4px;
+}
+
+.searchInput {
+  width: 100%;
+  font-family: Arial, sans-serif;
+  font-size: 14px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
+.buttonInput {
+  background-color: transparent;
+  border: transparent;
+  margin: 5px;
+}
+.tableContainer {
+  width: 100%;
+  overflow: auto;
+  border-radius: 4px;
+  scrollbar-width: none;
+}
+
+.table {
+  width: 100%;
+  background-color: #f5f5f5;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.thead {
+  position: sticky;
+  top: 0;
+  background-color: #333;
+  color: #fff;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding-right: 15px;
+  padding-left: 15px;
+  span {
+    font-weight: 900;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    white-space: nowrap;
+  }
+}
+
+.td {
+  padding: 8px;
+  border-bottom: 1px solid #ddd;
+  word-break: break-word;
+  cursor: pointer;
+
+  &:hover {
+    background-color: #ddd;
+  }
+
+  &:last-child {
+    border-bottom: none;
+  }
+}
+
+.modalOverlay {
+  position: fixed;
+  z-index: 99;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: rgba(0, 0, 0, 0.5); 
+}
+
+.modalContent {
+  width: 100%;
+  background-color: white;
+  color: black;
+  margin: 2.5rem; 
+  padding: 1.5rem; 
+  border-radius: 0.375rem;
+  box-shadow: 0 10px 15px -3px rgba(0, 0, 0, 0.1), 0 4px 6px -2px rgba(0, 0, 0, 0.05); 
+}
+
+.content {
+  max-height: 600px;
+  overflow-y: scroll;
+}
+
+.modalButton {
+  color: black;
+  float: right;
+}
+
+.modalTitle {
+  font-size: 1.875rem;
+  margin-bottom: .5rem;
+}
+
+.overflowHidden {
+    overflow: hidden;
+}
