@@ -1,4 +1,41 @@
+.bodyModal {
+    padding-top: 90px;
+    padding-bottom: 90px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-flow: column wrap;
+}
+
+.header {
+    display: flex;
+    gap: 50px;
+}
+
 .image {
-    width: 200px;
-    height: 200px;
+    width: 300px;
+    height: 300px;
+}
+
+.TecnologiesImage {
+    width: 50px;
+    height: 50px;
+}
+
+.tecnologiesContainer {
+    display: flex;
+    flex-flow: row wrap;
+    gap: 30px;
+    margin-top: 15px;
+}
+
+.tecnologiCard {
+    display: flex;
+    flex-flow: column wrap;
+    justify-content: center;
+    align-items: center;
+}
+
+.tecnologiesTitle {
+    margin-top: 50px;
 }

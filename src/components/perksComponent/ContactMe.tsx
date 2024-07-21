@@ -1,4 +1,4 @@
-
+import Styles from '../../styles/components/perks/contactMe.module.scss'
 import { useForm, ValidationError } from '@formspree/react';
 
 function ContactForm() {
@@ -7,9 +7,9 @@ function ContactForm() {
         return <p>Thanks for joining!</p>;
     }
     return (
-        <form onSubmit={handleSubmit}>
+        <form onSubmit={handleSubmit} className={Styles.form}>
             <label htmlFor="email">
-                Email Address
+                email Address
             </label>
             <input
                 id="email"
@@ -21,9 +21,11 @@ function ContactForm() {
                 field="email"
                 errors={state.errors}
             />
+            <label>text</label>
             <textarea
                 id="message"
                 name="message"
+                className={Styles.textarea}
             />
             <ValidationError
                 prefix="Message"

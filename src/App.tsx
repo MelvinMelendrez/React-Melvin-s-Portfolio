@@ -5,6 +5,7 @@ const App = () => {
 
   return (
     <div className="container">
+
       <div className="header">
 
         <div className="melvin">
@@ -14,11 +15,13 @@ const App = () => {
         <div className="perks">
           <PerksComponent />
         </div>
-      </div>
 
+
+      </div>
       <div className="projects">
         <ListComponent title="projects" data={MelvinProjects} tabs={MelvinProjectsTags} />
       </div>
+
     </div>
   )
 }

@@ -2,13 +2,13 @@ body {
   width: 100%;
   height: 100vh;
   margin: 0;
-  background-color: black;
 }
 
 .container {
   width: 100%;
   height: 100vh;
   margin: 0;
+  background: linear-gradient(135deg, #f6d365 0%, #fda085 100%);
 }
 
 .header {
@@ -41,6 +41,9 @@ body {
   body
   .melvin {
     width: 100%;
+  }
+  .container {
+  height: auto;
   }
 }
 

@@ -50,7 +50,7 @@ export const tags: Tag[] = [
 export const SkillCards: SkillCard[] = [
     { text: 'Angular', icon: 'https://cdn.iconscout.com/icon/free/png-512/angular-3-226070.png' },
     { text: 'MySQL', icon: 'https://cdn.iconscout.com/icon/free/png-512/mysql-19-1174939.png' },
-    { text: 'Next JS', icon: 'https://cdn.sanity.io/images/ohx8wpby/production/ad36acfc7dd8ea44def84b08bd7d3661c1098898-426x259.png' },
+    { text: 'Next JS', icon: 'https://cdn.sanity.io/images/ohx8wpby/production/b617829af6b887556765eb9baa3cd69c205a7744-3000x1811.png' },
     { text: 'Javascript', icon: 'https://cdn.iconscout.com/icon/free/png-512/javascript-1-225993.png' },
     { text: 'Typescript', icon: 'https://cdn.iconscout.com/icon/free/png-512/typescript-1-1175078.png' },
     { text: 'Sass', icon: 'https://cdn.sanity.io/images/ohx8wpby/production/2825d163301127c72b6121baebb5e570689596e5-480x480.png' },
