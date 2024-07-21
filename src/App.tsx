@@ -1,7 +1,5 @@
+import { ListComponent, MelvinComponent, PerksComponent } from "./components";
 import { MelvinProjects, MelvinProjectsTags } from "./data";
-import ListComponent from "./components/ListComponent"
-import Melvin from "./components/MelvinComponent";
-import Perks from "./components/Perks";
 
 const App = () => {
 
@@ -10,11 +8,11 @@ const App = () => {
       <div className="header">
 
         <div className="melvin">
-          <Melvin />
+          <MelvinComponent />
         </div>
 
-        <div className="animation">
-          <Perks />
+        <div className="perks">
+          <PerksComponent />
         </div>
       </div>
 

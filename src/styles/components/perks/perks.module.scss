@@ -12,10 +12,13 @@
     flex-direction: column;
     margin: 10px;
     gap: 15px;
+
+    button {
+        cursor: pointer;
+    }
 }
 
 .contentContainer {
     width: 80%;
     height: 80%;
-    background-color: burlywood;
 }

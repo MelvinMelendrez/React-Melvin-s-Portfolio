@@ -1,8 +1,23 @@
+import Styles from '../../styles/components/perks/skills.module.scss'
+import { SkillCards } from '../../data';
+
 
 const Skills = () => {
+
     return (
-        <div>Skills</div>
-    )
+        <div className={Styles.bodySkills}>
+            <span className={Styles.Title}>my skills</span>
+            <p>I have developed a diverse skill set throughout my career, allowing me to tackle a wide range of projects</p>
+            <div className={Styles.cards}>
+                {SkillCards.map((card, index) => (
+                    <div key={index} className={Styles.card}>
+                        <span>{card.icon}</span>
+                        <span>{card.text}</span>
+                    </div>
+                ))}
+            </div>
+        </div>
+    );
 }
 
-export default Skills
+export default Skills;

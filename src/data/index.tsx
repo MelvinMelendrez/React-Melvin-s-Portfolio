@@ -1,4 +1,5 @@
-import { Post, Tab } from "../interfaces/interfaces";
+import { Skills, Abilities, ContactMe } from "../components/perks";
+import { AbilitiesCard, Post, SkillCard, Tab, Tag } from "../interfaces";
 
 export const MelvinProjects: Post[] = [
     {
@@ -51,4 +52,34 @@ export const MelvinProjects: Post[] = [
 export const MelvinProjectsTags: Tab[] = [
     { tag: 'front-end', filtro: 'front-end' },
     { tag: 'full-stack', filtro: 'full-stack' },
+];
+
+export const tags: Tag[] = [
+    { text: 'skills', component: <Skills /> },
+    { text: 'abilities', component: <Abilities /> },
+    { text: 'contact me', component: <ContactMe /> },
+];
+
+export const SkillCards: SkillCard[] = [
+    { text: 'Skill 1', icon: '🔧' },
+    { text: 'Skill 2', icon: '💡' },
+    { text: 'Skill 1', icon: '🔧' },
+    { text: 'Skill 2', icon: '💡' },
+    { text: 'Skill 1', icon: '🔧' },
+    { text: 'Skill 2', icon: '💡' },
+    { text: 'Skill 1', icon: '🔧' },
+    { text: 'Skill 2', icon: '💡' },
+    { text: 'Skill 1', icon: '🔧' },
+    { text: 'Skill 2', icon: '💡' },
+    { text: 'Skill 1', icon: '🔧' },
+    { text: 'Skill 2', icon: '💡' },
+];
+
+export const AbilitiesCards: AbilitiesCard[] = [
+    { text: 'Skill 1', icon: '🔧', framework: 'react' },
+    { text: 'Skill 2', icon: '💡', framework: 'angular' },
+    { text: 'Skill 1', icon: '🔧', framework: 'react' },
+    { text: 'Skill 2', icon: '💡', framework: 'next' },
+    { text: 'Skill 1', icon: '🔧', framework: 'react' },
+    { text: 'Skill 2', icon: '💡', framework: 'react native' },
 ];

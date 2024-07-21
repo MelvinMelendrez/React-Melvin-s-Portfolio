@@ -14,3 +14,18 @@ export interface ListComponentProps {
     tabs: Tab[];
     title?: string;
 }
+
+export interface Tag {
+    text: string;
+    component: JSX.Element;
+}
+
+export interface SkillCard {
+    text: string;
+    icon: string;
+}
+export interface AbilitiesCard {
+    text: string;
+    icon: string;
+    framework: string;
+}

@@ -1,6 +1,6 @@
 import React, { useState, useEffect } from 'react';
 import styles from '../styles/components/ListComponent.module.scss';
-import { ListComponentProps, Post, Tab } from '../interfaces/interfaces';
+import { ListComponentProps, Post, Tab } from '../interfaces';
 
 const ListComponent: React.FC<ListComponentProps> = ({ data, tabs, title = 'title' }) => {
     const [activeTab, setActiveTab] = useState(0);

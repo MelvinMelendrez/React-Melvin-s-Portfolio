@@ -14,17 +14,17 @@ body {
 
 .header {
   display: flex;
-  height: 65%;
+  height: 60%;
 }
 
 .melvin {
   width: 35%;
 }
 
-.animation {
+.perks {
   width: 65%;
 }
 
 .projects{
-  margin: 0;
+  height: 45%;
 }
