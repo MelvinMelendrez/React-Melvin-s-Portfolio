@@ -1,8 +1,8 @@
 import React, { useState, useEffect } from 'react';
-import styles from '../styles/ListComponent.module.scss';
+import styles from '../styles/components/ListComponent.module.scss';
 import { ListComponentProps, Post, Tab } from '../interfaces/interfaces';
 
-const ListComponent: React.FC<ListComponentProps> = ({ data, tabs, title = 'asd' }) => {
+const ListComponent: React.FC<ListComponentProps> = ({ data, tabs, title = 'title' }) => {
     const [activeTab, setActiveTab] = useState(0);
     const [searchTerm, setSearchTerm] = useState('');
     const [selectedPost, setSelectedPost] = useState<Post | null>(null);
@@ -78,10 +78,10 @@ const ListComponent: React.FC<ListComponentProps> = ({ data, tabs, title = 'asd'
 
     return (
         <div className={styles.container}>
-            {tabsVisible && (
-                <div className={styles.tabsContainer}>
-                    <div className={styles.tabs}>
-                        {tabList.map((tab, index) => (
+            <div className={styles.tabsContainer}>
+                <div className={styles.tabs}>
+                    {tabsVisible && (
+                        tabList.map((tab, index) => (
                             <button
                                 key={index}
                                 className={activeTab === index ? styles.activeTab : styles.tab}
@@ -89,10 +89,11 @@ const ListComponent: React.FC<ListComponentProps> = ({ data, tabs, title = 'asd'
                             >
                                 {tab.tag}
                             </button>
-                        ))}
-                    </div>
+                        ))
+                    )}
                 </div>
-            )}
+            </div>
+
 
             <div className={styles.tableContainer}>
                 <div className={styles.table}>
@@ -110,7 +111,7 @@ const ListComponent: React.FC<ListComponentProps> = ({ data, tabs, title = 'asd'
                                 />
                             )}
                         </div>
-                        <div>
+                        <div className={styles.icons}>
                             <button className={styles.buttonInput} onClick={toggleTabsVisibility}>🖇️</button>
                             <button className={styles.buttonInput} onClick={toggleInputVisibility}>🔍</button>
                         </div>
