@@ -18,12 +18,14 @@
     flex-flow: row wrap;
     overflow-y: scroll;
     max-height: 68%;
+    width: 100%;
 }
 
 .card {
     width: 120px;
     height: 120px;
     background-color: rgba(0, 0, 0, 0.528);
+    color: white;
     margin: 5px;
     display: flex;
     flex-flow: column wrap;
@@ -39,5 +41,12 @@
 @media screen and (max-width: 500px) {
     .bodySkills {
         height: 500px;
+    }
+
+}
+
+@media screen and (max-width: 800px) {
+    .cards {
+        align-items: center;
     }
 }
