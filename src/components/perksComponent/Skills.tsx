@@ -11,7 +11,7 @@ const Skills = () => {
             <div className={Styles.cards}>
                 {SkillCards.map((card, index) => (
                     <div key={index} className={Styles.card}>
-                        <span>{card.icon}</span>
+                        <img src={card.icon} alt={`${card.text} icon`} className={Styles.skillIcon} />
                         <span>{card.text}</span>
                     </div>
                 ))}

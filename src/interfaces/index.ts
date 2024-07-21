@@ -26,6 +26,5 @@ export interface SkillCard {
 }
 export interface AbilitiesCard {
     text: string;
-    icon: string;
-    framework: string;
+    image: string;
 }

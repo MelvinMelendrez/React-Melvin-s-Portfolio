@@ -12,12 +12,14 @@ const Abilities = () => {
                 {AbilitiesCards.map((card, index) => (
                     <div key={index} className={Styles.card}>
                         <div className={Styles.flex}>
-                            <div className={Styles.image}>{card.icon}</div>
-                            <div className={Styles.cardText}><span>{card.text}</span></div>
+                            <div className={Styles.image}>
+
+                                <img src={card.image} alt={`${card.text} icon`} />
+                            </div>
                         </div>
                         <div className={Styles.framework}>
                             <p></p>
-                            <span className={Styles.framework}>{card.framework}</span>
+                            <span className={Styles.framework}>{card.text}</span>
                         </div>
                     </div>
                 ))}
