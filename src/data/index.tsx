@@ -44,7 +44,7 @@ export const MelvinProjectsTags: Tab[] = [
 export const tags: Tag[] = [
     { text: 'skills', component: <Skills /> },
     { text: 'abilities', component: <Abilities /> },
-    { text: 'contact me', component: <ContactMe /> },
+    { text: 'contact', component: <ContactMe /> },
 ];
 
 export const SkillCards: SkillCard[] = [

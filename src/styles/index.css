@@ -26,6 +26,8 @@ body {
 
 .projects{
   height: 45%;
+  margin-left: 15px;
+  margin-right: 15px;
 }
 
 @media screen and (max-width: 800px) {
