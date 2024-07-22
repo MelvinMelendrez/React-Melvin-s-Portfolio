@@ -2,51 +2,97 @@ body {
   width: 100%;
   height: 100vh;
   margin: 0;
+  background: linear-gradient(135deg, #ffffff 0%, #009826 100%);
 }
 
 .container {
   width: 100%;
   height: 100vh;
-  margin: 0;
-  background: linear-gradient(135deg, #ffffff 0%, #009826 100%);
+  position: relative;
 }
 
 .header {
   display: flex;
   height: 55%;
+  width: 100%;
 }
 
-.melvin {
-  width: 30%;
+.lines {
+  position: absolute;
+  z-index: 1;
+  width: 100%;
+  height: 100%;
 }
 
-.perks {
-  width: 70%;
+.page {
+  position: relative;
+  z-index: 2;
 }
 
-.projects{
-  height: 45%;
-  margin-left: 15px;
-  margin-right: 15px;
+.line {
+  background-color: #009826;
+  position: absolute;
+}
+
+.line1 {
+  width: 500px;
+  height: 1%;
+  top: 8%;
+  left: 5%;
+}
+
+.line2 {
+  width: 1%;
+  height: 500px;
+  top: 20%;
+  left: 20%;
+}
+
+.line3 {
+  width: 1%;
+  height: 500px;
+  top: 30%;
+  left: 30%;
+}
+
+.line4 {
+  width: 500px;
+  height: 1%;
+  top: 40%;
+  left: 40%;
+}
+
+.line5 {
+  height: 300px;
+  width: 1%;
+  top: 50%;
+  left: 50%;
 }
 
 @media screen and (max-width: 800px) {
+  body {
+    height: auto;
+    overflow: auto;
+  }
+
+  .container {
+    height: auto;
+  }
+
+  .line {
+    position: absolute;
+  }
+  
   .header {
     flex-flow: column wrap;
-    height: auto;
-    width: 100%;
   }
-  .perks {
-    width: 100%;
-    height: 500px;
+
+  .line1, .line4 {
+    width: 400px;
+    height: 5px;
   }
-  body
-  .melvin {
-    width: 100%;
-  }
-  .container {
-  height: auto;
+
+  .line2, .line3, .line5 {
+    width: 5px;
   }
 }
-
-

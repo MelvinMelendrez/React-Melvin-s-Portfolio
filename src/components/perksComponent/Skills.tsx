@@ -11,7 +11,7 @@ const Skills = () => {
             <div className={Styles.cards}>
                 {SkillCards.map((card, index) => (
                     <div key={index} className={Styles.card}>
-                        <img src={card.icon} alt={`${card.text} icon`} className={Styles.skillIcon} />
+                        <img src={card.image} alt={`${card.text} icon`} className={Styles.skillIcon} />
                         <span>{card.text}</span>
                     </div>
                 ))}

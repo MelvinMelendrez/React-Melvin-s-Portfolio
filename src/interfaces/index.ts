@@ -22,7 +22,7 @@ export interface Tag {
 
 export interface SkillCard {
     text: string;
-    icon: string;
+    image: string;
 }
 export interface AbilitiesCard {
     text: string;
