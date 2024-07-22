@@ -71,11 +71,12 @@
     }
 
     .tabsContainer {
-        display: block;
+        flex-direction: row;
         text-align: center;
     }
 
     .contentContainer {
         text-align: center;
+        margin: 0;
     }
 }
