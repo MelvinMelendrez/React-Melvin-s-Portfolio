@@ -21,7 +21,7 @@ function ContactForm() {
                 field="email"
                 errors={state.errors}
             />
-            <label>text</label>
+            <label>massage</label>
             <textarea
                 id="message"
                 name="message"
