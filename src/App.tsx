@@ -8,6 +8,7 @@ const App = () => {
       <div className='line line3'></div>
       <div className='line line4'></div>
       <div className='line line5'></div>
+      <div className='line line6'></div>
       <div className="page">
         <Page />
       </div>

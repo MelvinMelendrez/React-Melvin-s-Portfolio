@@ -113,7 +113,7 @@ margin-right: 2%;
   width: 1%;
   height: 500px;
   top: 20%;
-  left: 20%;
+  left: 25%;
   animation: lineShrink 2s ease-in-out infinite alternate;
 }
 
@@ -135,9 +135,44 @@ margin-right: 2%;
 
 .line5 {
   height: 300px;
-  width: 1%;
+  width: 3%;
   top: 50%;
   left: 50%;
+  animation: lineShrink 2s ease-in-out infinite alternate;
+}
+
+
+.line6 {
+  height: 500px;
+  width: 1%;
+  top: 20%;
+  left: 96%;
   animation: lineGrow 2s ease-in-out infinite alternate;
 }
 
+
+.btn {
+  display: inline-flex;
+  align-items: center;
+  background-color: #282c34;
+  color: #ffffff;
+  border: none;
+  border-radius: 5px;
+  padding: 10px 20px;
+  font-size: 1em;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+  margin: 10px;
+}
+
+.btn svg {
+  margin-right: 10px;
+}
+
+.btn:hover {
+  background-color: #61dafb;
+}
+
+.btn:active {
+  background-color: #21a1f1;
+}

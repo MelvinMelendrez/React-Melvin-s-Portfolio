@@ -19,7 +19,7 @@ const App = () => {
 
             </div>
             <div className="projects">
-                <ListComponent title="projects" data={MelvinProjects} tabs={MelvinProjectsTags} />
+                <ListComponent title="Projects" data={MelvinProjects} tabs={MelvinProjectsTags} />
             </div>
 
         </div>

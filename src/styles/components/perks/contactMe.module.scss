@@ -1,14 +1,14 @@
 .form {
     display: flex;
     flex-direction: column;
-    margin-top: 70px;
+    margin-top: 20px;
+    padding: 50px;
     width: 100%;
-    max-width: 600px; // Limita el ancho máximo del formulario
 
     label {
         margin-top: 10px;
         font-size: 1rem;
-        color: #333; // Color de texto para las etiquetas
+        color: #333;
     }
 
     input,
@@ -19,38 +19,38 @@
         font-size: 1rem;
         margin-top: 5px;
         width: 100%;
-        box-sizing: border-box; // Incluye el padding y border en el tamaño total
+        box-sizing: border-box;
     }
 
     textarea {
-        height: 150px; // Ajusta la altura del área de texto
-        resize: vertical; // Permite redimensionar verticalmente
+        height: 150px;
+        resize: vertical;
     }
 
     button {
         margin-top: 20px;
         padding: 10px 20px;
-        background-color: #009826; // Color de fondo del botón
-        color: #fff; // Color del texto del botón
+        background-color: #009826;
+        color: #fff;
         border: none;
         border-radius: 4px;
         font-size: 1rem;
         cursor: pointer;
-        transition: background-color 0.3s ease; // Suaviza el cambio de color
+        transition: background-color 0.3s ease;
 
         &:hover {
-            background-color: #007d1a; // Color de fondo del botón al pasar el mouse
+            background-color: #007d1a;
         }
 
         &:disabled {
-            background-color: #ddd; // Color de fondo cuando el botón está deshabilitado
-            cursor: not-allowed; // Cambia el cursor cuando el botón está deshabilitado
+            background-color: #ddd;
+            cursor: not-allowed;
         }
     }
 
     .error {
-        color: #e74c3c; // Color de texto para los mensajes de error
-        font-size: 0.875rem; // Tamaño de fuente para los mensajes de error
+        color: #e74c3c;
+        font-size: 0.875rem;
         margin-top: 5px;
     }
 }

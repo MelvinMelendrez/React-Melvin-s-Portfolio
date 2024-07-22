@@ -1,7 +1,7 @@
 export interface Post {
     titulo: string;
     tab: string;
-    contenido: JSX.Element; 
+    contenido: JSX.Element;
 }
 
 export interface Tab {
@@ -27,4 +27,17 @@ export interface SkillCard {
 export interface AbilitiesCard {
     text: string;
     image: string;
+}
+export interface technologies {
+    text: string;
+    image: string;
+}
+export interface Project {
+    proyect?: string;
+    imageSrc: string;
+    description: JSX.Element;
+    technologies: technologies[];
+    framework: technologies;
+    liveLink: string;
+    githubLink: string;
 }

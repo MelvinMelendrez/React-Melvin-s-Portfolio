@@ -1,15 +1,16 @@
 import Styles from '../../styles/components/perks/contactMe.module.scss'
 import { useForm, ValidationError } from '@formspree/react';
+import CongratulationMessage from './CongratulationMessage';
 
 function ContactForm() {
     const [state, handleSubmit] = useForm("xjkbgkke");
     if (state.succeeded) {
-        return <p>Thanks for joining!</p>;
+        return <CongratulationMessage />;
     }
     return (
         <form onSubmit={handleSubmit} className={Styles.form}>
             <label htmlFor="email">
-                email Address
+                email address
             </label>
             <input
                 id="email"

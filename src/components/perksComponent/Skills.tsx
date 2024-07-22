@@ -6,7 +6,7 @@ const Skills = () => {
 
     return (
         <div className={Styles.bodySkills}>
-            <span className={Styles.Title}>my skills</span>
+            <span className={Styles.Title}>skills</span>
             <p>I have developed a diverse skill set throughout my career, allowing me to tackle a wide range of projects</p>
             <div className={Styles.cards}>
                 <div>
