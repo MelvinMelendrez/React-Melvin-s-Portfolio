@@ -144,12 +144,16 @@
 
 .modalButton {
   color: black;
+  border: none;
   float: right;
   background-color: transparent;
+  border-radius: 60%;
+  margin: 0;
+  padding: 8px;
 
   &:hover {
     color: white;
-    background-color: rgba(0, 0, 0, 0.5);
+    background-color: #282c34;
   }
 }
 
@@ -167,5 +171,9 @@
 
   button {
     cursor: pointer;
+
+    &:hover {
+      background-color: #007d1a;
+    }
   }
 }

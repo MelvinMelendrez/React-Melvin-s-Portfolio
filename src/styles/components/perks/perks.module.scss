@@ -47,8 +47,9 @@
 
 .activeTab {
     text-wrap: nowrap;
-    background-color: #007d1a;
-    border: 1px solid #ffffff;
+    background-color: #009826;
+    border: none;
+    color: white;
     font-weight: bold;
     border-radius: 8px;
     padding: 12px 24px;
@@ -60,7 +61,7 @@
 
     &:hover {
         cursor: auto;
-        background-color: #007d1a;
+        background-color: #009826;
     }
 }
 
