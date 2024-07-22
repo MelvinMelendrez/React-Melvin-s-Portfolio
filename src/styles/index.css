@@ -17,6 +17,15 @@ body {
   width: 100%;
 }
 
+.melvin {
+margin-left: 90px;
+margin-right: 90px;
+}
+
+.perks {
+  width: 100%;
+}
+
 .lines {
   position: absolute;
   z-index: 1;
@@ -77,6 +86,7 @@ body {
 
   .container {
     height: auto;
+    gap: 1px;
   }
 
   .line {
