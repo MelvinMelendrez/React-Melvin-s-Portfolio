@@ -2,14 +2,13 @@ import Styles from '../../styles/components/perks/skills.module.scss'
 import { SkillCards } from '../../data';
 
 
-const Skills = () => {
+const Skills: React.FC = () => {
 
     return (
         <div className={Styles.bodySkills}>
-            <span className={Styles.Title}>skills</span>
-            <p>I have developed a diverse skill set throughout my career, allowing me to tackle a wide range of projects</p>
             <div className={Styles.cards}>
-                <div>
+                <span className={Styles.Title}>skills</span>
+                <div className={Styles.cardsContainer}>
                     {SkillCards.map((card, index) => (
                         <div key={index} className={Styles.card}>
                             <img src={card.image} alt={`${card.text} icon`} className={Styles.skillIcon} />

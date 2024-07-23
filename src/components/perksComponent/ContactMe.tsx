@@ -1,8 +1,8 @@
+import { CongratulationMessage } from '.';
 import Styles from '../../styles/components/perks/contactMe.module.scss'
 import { useForm, ValidationError } from '@formspree/react';
-import CongratulationMessage from './CongratulationMessage';
 
-function ContactForm() {
+const ContactForm: React.FC = () => {
     const [state, handleSubmit] = useForm("xjkbgkke");
     if (state.succeeded) {
         return <CongratulationMessage />;

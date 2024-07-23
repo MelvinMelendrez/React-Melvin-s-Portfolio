@@ -2,7 +2,7 @@ import { useState } from 'react';
 import Styles from '../styles/components/perks/perks.module.scss';
 import { tags } from '../data';
 
-const PerksComponent = () => {
+const PerksComponent: React.FC = () => {
     const [activeTab, setActiveTab] = useState<string>('skills');
 
     const handleTabClick = (tabText: string) => {
