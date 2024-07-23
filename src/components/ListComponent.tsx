@@ -104,7 +104,7 @@ const ListComponent: React.FC<ListComponentProps> = ({ data, tabs, title = 'titl
                                 <input
                                     type="text"
                                     className={styles.searchInput}
-                                    placeholder="Buscar..."
+                                    placeholder="Search..."
                                     value={searchTerm}
                                     onChange={handleSearchChange}
                                     autoFocus
