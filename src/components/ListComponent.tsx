@@ -30,12 +30,12 @@ const ListComponent: React.FC<ListComponentProps> = ({ data, tabs, title = 'titl
         setModalOpen(false);
     };
 
-    const defaultTab: Tab = { tag: 'todos', filtro: '' };
+    const defaultTab: Tab = { tag: 'all', filtro: '' };
     const tabList = tabs ? [defaultTab, ...tabs] : [defaultTab];
 
     const filteredPosts = data
         .filter((post) => {
-            if (activeTab === 0 && tabList[activeTab].tag === 'todos') return true;
+            if (activeTab === 0 && tabList[activeTab].tag === 'all') return true;
             const categoryMatches = post.tab === tabList[activeTab].filtro;
             return categoryMatches;
         })
