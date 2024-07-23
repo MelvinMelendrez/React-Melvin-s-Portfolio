@@ -186,3 +186,13 @@ body {
     width: 8px;
   }
 }
+
+@media screen and (max-width: 600px) {
+  .line1 {
+    width: 380px;
+  }
+
+  .line4 {
+    width: 240px;
+  }
+}
