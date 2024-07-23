@@ -18,7 +18,7 @@
     flex-wrap: wrap;
     gap: 20px;
     overflow-y: scroll;
-    height: 247px;
+    height: 260px;
     padding: 30px;
 }
 
@@ -64,4 +64,16 @@
     font-size: 1.3em;
     font-weight: bold;
     color: #e0e0e0;
+}
+
+@media screen and (max-width: 1200px) {
+    .cards {
+        height: 247px;
+    }
+}
+
+@media screen and (max-width: 800px) {
+    .cards {
+        height: 260px;
+    }
 }

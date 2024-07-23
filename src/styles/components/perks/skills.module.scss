@@ -15,7 +15,7 @@
 
 .cards {
     margin: 15px;
-    height: 247px;
+    height: 260px;
     overflow-y: scroll;
     padding: 30px;
 
@@ -62,11 +62,19 @@
     }
 }
 
+@media screen and (max-width: 1200px) {
+    .cards {
+        height: 247px;
+    }
+}
+
 @media screen and (max-width: 800px) {
     .cards {
         div {
             justify-content: center;
             align-items: center;
         }
+
+        height: 260px;
     }
 }
