@@ -1,5 +1,5 @@
 import { useState } from 'react';
-import Styles from '../styles/components/perks/perks.module.scss';
+import Styles from '../styles/components/perksComponent.module.scss';
 import { tags } from '../data';
 
 const PerksComponent: React.FC = () => {

@@ -6,8 +6,11 @@ const Skills: React.FC = () => {
 
     return (
         <div className={Styles.bodySkills}>
+
             <div className={Styles.cards}>
-                <span className={Styles.Title}>skills</span>
+                <div className={Styles.Title}>
+                    <span>skills</span>
+                </div>
                 <div className={Styles.cardsContainer}>
                     {SkillCards.map((card, index) => (
                         <div key={index} className={Styles.card}>

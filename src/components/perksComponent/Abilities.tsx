@@ -5,7 +5,10 @@ const Abilities: React.FC = () => {
     return (
         <div className={Styles.bodyAbilities}>
             <div className={Styles.cards}>
-                <span className={Styles.Title}>abilities</span>
+                <div className={Styles.Title}>
+                    <span>abilities</span>
+                </div>
+
                 <div className={Styles.cardsContainer}>
                     {AbilitiesCards.map((card, index) => (
                         <div key={index} className={Styles.card}>
