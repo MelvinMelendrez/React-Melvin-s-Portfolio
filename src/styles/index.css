@@ -162,11 +162,11 @@ body {
   }
 
   .perks {
-    margin-bottom: 35px;
+    height: 550px;
   }
 
   .projects {
-    margin-bottom: 30px;
+    height: 500px;
   }
 
   .line {
