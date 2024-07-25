@@ -46,9 +46,9 @@ body {
 }
 
 .line1 {
-  width: 500px;
+  width: 550px;
   height: 1%;
-  top: 5%;
+  top: 7%;
   left: 5%;
 }
 
@@ -62,9 +62,9 @@ body {
 
 .line3 {
   width: 1%;
-  height: 300px;
-  top: 50%;
-  left: 40%;
+  height: 500px;
+  top: 30%;
+  left: 37%;
   animation: lineGrow 1s ease-in-out infinite alternate;
 }
 
@@ -145,9 +145,34 @@ body {
   }
 }
 
-@media screen and (max-width: 1200px) {
+/* responsive */
+
+@media screen and (max-width: 1370px) {
+  .line1 {
+    top: 5%;
+  }
+
   .line2 {
     left: 27%;
+  }
+
+  .line3 {
+    left: 39%;
+  }
+
+  .line4 {
+    left: 47%;
+  }
+
+}
+
+@media screen and (max-width: 1200px) {
+  .line1 {
+    top: 5%;
+  }
+
+  .line3 {
+    left: 43%;
   }
 }
 
@@ -197,6 +222,7 @@ body {
   .line3 {
     width: 8px;
     height: 640px;
+    left: 36%;
   }
 }
 
@@ -206,6 +232,7 @@ body {
   }
 
   .line4 {
-    width: 240px;
+    width: 180px;
+    top: 42%;
   }
 }

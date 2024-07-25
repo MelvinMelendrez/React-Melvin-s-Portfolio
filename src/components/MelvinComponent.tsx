@@ -13,6 +13,7 @@ const MelvinComponent: React.FC = () => {
             </div>
             <span className={Styles.name}>Melvin Melendrez</span>
             <span className={Styles.title}>Front End Developer</span>
+            {/* <div className={Styles.line} /> */}
         </div>
     );
 };

@@ -77,6 +77,10 @@
     .card {
         width: 100%;
     }
+
+    .cardsContainer {
+        padding-right: 10px;
+    }
 }
 
 @media screen and (max-width: 800px) {
@@ -89,6 +93,7 @@
         height: 360px;
         width: 100%;
         padding-left: 0;
+        padding-right: 0;
         justify-content: center;
     }
 }
