@@ -23,9 +23,9 @@
     overflow-y: scroll;
     display: flex;
     flex-flow: row wrap;
-    justify-content: center;
     align-items: center;
     gap: 15px;
+    padding-left: 15px;
 }
 
 .card {
@@ -75,7 +75,7 @@
 
 @media screen and (max-width: 1000px) {
     .card {
-        width: calc(60% - 20px);
+        width: 100%;
     }
 }
 
@@ -88,5 +88,6 @@
     .cardsContainer {
         height: 360px;
         width: 100%;
+        padding-right: 0;
     }
 }
