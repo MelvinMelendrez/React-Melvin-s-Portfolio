@@ -113,6 +113,11 @@
   }
 }
 
+.listContent {
+  max-height: 250px;
+  overflow-y: scroll;
+}
+
 .modalOverlay {
   position: fixed;
   z-index: 99;
@@ -144,9 +149,10 @@
   border: none;
   float: right;
   background-color: transparent;
-  border-radius: 60%;
-  margin: 0;
-  padding: 8px;
+  border-radius: 100%;
+  margin: 5px;
+  width: 25px;
+  height: 25px;
 
   &:hover {
     color: white;

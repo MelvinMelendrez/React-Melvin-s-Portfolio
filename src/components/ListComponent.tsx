@@ -116,7 +116,7 @@ const ListComponent: React.FC<ListComponentProps> = ({ data, tabs, title = 'titl
                             <button className={styles.buttonInput} onClick={toggleInputVisibility}>🔍</button>
                         </div>
                     </div>
-                    <div>
+                    <div className={styles.listContent}>
                         {filteredPosts.map((post, index) => (
                             <div key={index}>
                                 <div
