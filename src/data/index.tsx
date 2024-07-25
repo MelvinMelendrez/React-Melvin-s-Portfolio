@@ -93,7 +93,7 @@ export const projects = {
     },
     MelvinsPortfolio: {
         proyect: "MelvinsPortfolio",
-        imageSrc: "https://cdn.sanity.io/images/ohx8wpby/production/b73769b0cb7658d56ca16e1ab80918726c513dcb-1440x777.png",
+        imageSrc: "https://cdn.sanity.io/images/ohx8wpby/production/beeb006981c79f72ad02ca581f1c5fb32f5dde8b-696x822.png",
         description: (
             <>
                 <p>Imagine having a secret map on your phone where no one can know your exact location. Our app allows you to explore with complete confidentiality and peace of mind. With an intuitive and sleek interface, you can navigate without the worry of accidentally sharing your whereabouts. Experience freedom and privacy like never before!</p>

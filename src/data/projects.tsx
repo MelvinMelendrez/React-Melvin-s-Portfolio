@@ -6,7 +6,7 @@ const { Authmap, AnimatedPortfolio, GoTravel, HealthyBlog, MelvinsPortfolio, Por
 
 export const MelvinProjects: Post[] = [
     {
-        titulo: '🗺️🔐 authmap',
+        titulo: '🗺️🔐 Authmap',
         tab: 'front-end',
         contenido: <ProjectDetail
             imageSrc={Authmap.imageSrc}
@@ -18,7 +18,7 @@ export const MelvinProjects: Post[] = [
         />
     },
     {
-        titulo: '🥗📖 healthy blog',
+        titulo: '🥗📖 Healthy blog',
         tab: 'full-stack',
         contenido: <ProjectDetail
             imageSrc={HealthyBlog.imageSrc}
@@ -30,7 +30,7 @@ export const MelvinProjects: Post[] = [
         />
     },
     {
-        titulo: "👨‍💻📁 melvin's portfolio",
+        titulo: "👨‍💻📁 Melvin's portfolio",
         tab: 'front-end',
         contenido: <ProjectDetail
             imageSrc={MelvinsPortfolio.imageSrc}
@@ -42,7 +42,7 @@ export const MelvinProjects: Post[] = [
         />
     },
     {
-        titulo: "⚛️📁 react portfolio",
+        titulo: "⚛️📁 React portfolio",
         tab: 'full-stack',
         contenido: <ProjectDetail
             imageSrc={Portfolio.imageSrc}
@@ -54,7 +54,7 @@ export const MelvinProjects: Post[] = [
         />
     },
     {
-        titulo: "🎨📁 melvin's animated portfolio",
+        titulo: "🎨📁 Melvin's animated portfolio",
         tab: 'front-end',
         contenido: <ProjectDetail
             imageSrc={AnimatedPortfolio.imageSrc}
@@ -66,7 +66,7 @@ export const MelvinProjects: Post[] = [
         />
     },
     {
-        titulo: '✈️🌍 go travel',
+        titulo: '✈️🌍 Go travel',
         tab: 'front-end',
         contenido: <ProjectDetail
             imageSrc={GoTravel.imageSrc}

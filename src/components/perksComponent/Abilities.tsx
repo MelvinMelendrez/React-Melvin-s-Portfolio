@@ -6,7 +6,7 @@ const Abilities: React.FC = () => {
         <div className={Styles.bodyAbilities}>
             <div className={Styles.cards}>
                 <div className={Styles.Title}>
-                    <span>abilities</span>
+                    <span>Abilities</span>
                 </div>
 
                 <div className={Styles.cardsContainer}>

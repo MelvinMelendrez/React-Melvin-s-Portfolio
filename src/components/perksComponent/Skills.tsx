@@ -9,7 +9,7 @@ const Skills: React.FC = () => {
 
             <div className={Styles.cards}>
                 <div className={Styles.Title}>
-                    <span>skills</span>
+                    <span>Skills</span>
                 </div>
                 <div className={Styles.cardsContainer}>
                     {SkillCards.map((card, index) => (
