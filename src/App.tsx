@@ -9,9 +9,8 @@ const App = () => {
       <div className='line line4' />
       <div className='line line5' />
       <div className='line line6' />
-      <div className="page">
-        <Homepage />
-      </div>
+      <Homepage />
+
     </div>
   )
 }

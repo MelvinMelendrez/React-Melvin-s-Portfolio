@@ -1,3 +1,7 @@
+html {
+  background: #009826 100%
+}
+
 body {
   min-width: 100%;
   min-height: 100vh;
@@ -14,15 +18,6 @@ body {
 .header {
   display: flex;
   height: 55%;
-  width: 100%;
-}
-
-.melvin {
-  margin-left: 2%;
-  margin-right: 2%;
-}
-
-.perks {
   width: 100%;
 }
 
@@ -56,7 +51,7 @@ body {
   width: 1%;
   height: 500px;
   top: 20%;
-  left: 24%;
+  left: 21%;
   animation: lineShrink 2s ease-in-out infinite alternate;
 }
 
@@ -64,7 +59,7 @@ body {
   width: 1%;
   height: 500px;
   top: 30%;
-  left: 37%;
+  left: 33%;
   animation: lineGrow 1s ease-in-out infinite alternate;
 }
 
@@ -153,11 +148,11 @@ body {
   }
 
   .line2 {
-    left: 27%;
+    left: 22%;
   }
 
   .line3 {
-    left: 39%;
+    left: 35%;
   }
 
   .line4 {
@@ -166,9 +161,37 @@ body {
 
 }
 
-@media screen and (max-width: 1200px) {
+@media screen and (max-width: 1290px) {
+  .line2 {
+    left: 24%;
+  }
+
+  .line3 {
+    left: 37%;
+  }
+}
+
+@media screen and (max-width: 1220px) {
   .line1 {
     top: 5%;
+  }
+
+  .line2 {
+    left: 25%;
+  }
+
+  .line3 {
+    left: 40%;
+  }
+
+  .line4 {
+    width: 300px;
+  }
+}
+
+@media screen and (max-width: 1100px) {
+  .line2 {
+    left: 28%;
   }
 
   .line3 {
@@ -191,7 +214,7 @@ body {
   }
 
   .perks {
-    height: 550px;
+    height: 500px;
   }
 
   .projects {
@@ -209,8 +232,10 @@ body {
   }
 
   .line4 {
-    width: 350px;
+    width: 300px;
     height: 10px;
+    top: 36.2%;
+    left: 44%;
   }
 
   .line2 {
@@ -231,8 +256,5 @@ body {
     width: 380px;
   }
 
-  .line4 {
-    width: 180px;
-    top: 42%;
-  }
+
 }

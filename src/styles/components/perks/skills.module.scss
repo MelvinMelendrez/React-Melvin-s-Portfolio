@@ -69,21 +69,19 @@
     }
 }
 
-@media screen and (max-width: 1220px) {
-    .cardsContainer {
-        width: 100%;
-    }
-}
-
 @media screen and (max-width: 800px) {
     .cards {
         margin: 0;
-        padding: 0;
+        padding: 15px;
 
         div {
             justify-content: center;
             align-items: center;
         }
+    }
+
+    .card {
+        padding: 10px;
     }
 
     .cardsContainer {
@@ -97,5 +95,6 @@
 
     .Title {
         margin-bottom: 7px;
+        padding: 0;
     }
 }
