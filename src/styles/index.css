@@ -1,5 +1,6 @@
 html {
-  background: #009826 100%
+  background: #009826 100%;
+  scrollbar-width: none;
 }
 
 body {
