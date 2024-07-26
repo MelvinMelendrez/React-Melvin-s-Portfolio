@@ -54,7 +54,7 @@ export const MelvinProjects: Post[] = [
         />
     },
     {
-        titulo: "🎨📁 Melvin's animated portfolio",
+        titulo: "🎨📁 Animated portfolio",
         tab: 'front-end',
         contenido: <ProjectDetail
             imageSrc={AnimatedPortfolio.imageSrc}
