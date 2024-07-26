@@ -39,8 +39,8 @@ export const projects = {
         ),
         technologies: [
             { text: 'Javascript', image: 'https://cdn.iconscout.com/icon/free/png-512/javascript-1-225993.png' },
-            { text: 'Responsive', image: 'https://cdn.sanity.io/images/ohx8wpby/production/3134ad6cae156d0e006900937251531fd5a34973-1500x938.png' },
             { text: 'Sass', image: 'https://cdn.sanity.io/images/ohx8wpby/production/2825d163301127c72b6121baebb5e570689596e5-480x480.png' },
+            { text: 'Responsive', image: 'https://cdn.sanity.io/images/ohx8wpby/production/3134ad6cae156d0e006900937251531fd5a34973-1500x938.png' },
             { text: 'Animation', image: 'https://cdn.sanity.io/images/ohx8wpby/production/0cfb370de56592ba97e8341141f766203a38c38e-400x400.png' },
             { text: 'Framer Motion', image: 'https://cdn.sanity.io/images/ohx8wpby/production/8e8b514518628b3bff60eab330b1982adcbc3382-2500x2500.svg' },
             { text: 'Github', image: 'https://cdn.iconscout.com/icon/free/png-512/github-170-1175028.png' },
@@ -82,8 +82,8 @@ export const projects = {
         ),
         technologies: [
             { text: 'Javascript', image: 'https://cdn.iconscout.com/icon/free/png-512/javascript-1-225993.png' },
-            { text: 'Responsive', image: 'https://cdn.sanity.io/images/ohx8wpby/production/3134ad6cae156d0e006900937251531fd5a34973-1500x938.png' },
             { text: 'Sass', image: 'https://cdn.sanity.io/images/ohx8wpby/production/2825d163301127c72b6121baebb5e570689596e5-480x480.png' },
+            { text: 'Responsive', image: 'https://cdn.sanity.io/images/ohx8wpby/production/3134ad6cae156d0e006900937251531fd5a34973-1500x938.png' },
             { text: 'Sanity', image: 'https://avatars.githubusercontent.com/u/17177659?s=280&v=4' },
             { text: 'Github', image: 'https://cdn.iconscout.com/icon/free/png-512/github-170-1175028.png' },
         ],
@@ -101,10 +101,10 @@ export const projects = {
         ),
         technologies: [
             { text: 'Typescript', image: 'https://cdn.iconscout.com/icon/free/png-512/typescript-1-1175078.png' },
-            { text: 'Responsive', image: 'https://cdn.sanity.io/images/ohx8wpby/production/3134ad6cae156d0e006900937251531fd5a34973-1500x938.png' },
             { text: 'Sass', image: 'https://cdn.sanity.io/images/ohx8wpby/production/2825d163301127c72b6121baebb5e570689596e5-480x480.png' },
-            { text: 'Animation', image: 'https://cdn.sanity.io/images/ohx8wpby/production/0cfb370de56592ba97e8341141f766203a38c38e-400x400.png' },
+            { text: 'Responsive', image: 'https://cdn.sanity.io/images/ohx8wpby/production/3134ad6cae156d0e006900937251531fd5a34973-1500x938.png' },
             { text: 'Github', image: 'https://cdn.iconscout.com/icon/free/png-512/github-170-1175028.png' },
+            { text: 'Animation', image: 'https://cdn.sanity.io/images/ohx8wpby/production/0cfb370de56592ba97e8341141f766203a38c38e-400x400.png' },
 
         ],
         framework: { text: "React", image: "https://cdn.sanity.io/images/ohx8wpby/production/34be54263e18fa2aea611c6b3b388b76e978e7d7-64x64.png" },
@@ -122,8 +122,8 @@ export const projects = {
         ),
         technologies: [
             { text: 'Javascript', image: 'https://cdn.iconscout.com/icon/free/png-512/javascript-1-225993.png' },
-            { text: 'Responsive', image: 'https://cdn.sanity.io/images/ohx8wpby/production/3134ad6cae156d0e006900937251531fd5a34973-1500x938.png' },
             { text: 'Sass', image: 'https://cdn.sanity.io/images/ohx8wpby/production/2825d163301127c72b6121baebb5e570689596e5-480x480.png' },
+            { text: 'Responsive', image: 'https://cdn.sanity.io/images/ohx8wpby/production/3134ad6cae156d0e006900937251531fd5a34973-1500x938.png' },
             { text: 'Framer Motion', image: 'https://cdn.sanity.io/images/ohx8wpby/production/8e8b514518628b3bff60eab330b1982adcbc3382-2500x2500.svg' },
             { text: 'Github', image: 'https://cdn.iconscout.com/icon/free/png-512/github-170-1175028.png' },
 
