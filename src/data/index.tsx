@@ -96,8 +96,9 @@ export const projects = {
         imageSrc: "https://cdn.sanity.io/images/ohx8wpby/production/beeb006981c79f72ad02ca581f1c5fb32f5dde8b-696x822.png",
         description: (
             <>
-                <p>Imagine having a secret map on your phone where no one can know your exact location. Our app allows you to explore with complete confidentiality and peace of mind. With an intuitive and sleek interface, you can navigate without the worry of accidentally sharing your whereabouts. Experience freedom and privacy like never before!</p>
-                <p>This project integrates Firebase for secure login and registration with Mapbox for interactive map visualization. It offers a seamless authentication experience and advanced mapping features, ideal for building scalable and secure applications.</p>            </>
+                <p>This portfolio features a visually engaging website with CSS animations that make the design dynamic and appealing. Interactive components are included, allowing users to interact with the site in a fun and intuitive way. Additionally, there’s a built-in feature that lets users send messages directly to my email, making communication straightforward and convenient. The portfolio combines creative design with practical functionality, showcasing both technical skills and user-friendly features.</p>
+                <p>Portfolio with css animations, interactive components and messages connected to my email</p>
+            </>
         ),
         technologies: [
             { text: 'Typescript', image: 'https://cdn.iconscout.com/icon/free/png-512/typescript-1-1175078.png' },

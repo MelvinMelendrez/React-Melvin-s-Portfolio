@@ -11,16 +11,16 @@ const ContactForm: React.FC = () => {
         <div className={Styles.ContactMeBody}>
             <div className={Styles.buttons}>
                 <button onClick={() => window.open('https://github.com/MelvinMelendrez', "_blank")}>
-                    github
+                    Github
                 </button>
                 <button onClick={() => window.open('https://www.linkedin.com/in/melvinmelendrez/', "_blank")}>
-                    linkedin
+                    Linkedin
                 </button>
             </div>
 
             <form onSubmit={handleSubmit} className={Styles.form1}>
                 <label htmlFor="email">
-                    email address
+                    Email
                 </label>
                 <input
                     id="email"
@@ -33,7 +33,7 @@ const ContactForm: React.FC = () => {
                     field="email"
                     errors={state.errors}
                 />
-                <label>massage</label>
+                <label>Massage</label>
                 <textarea
                     id="message"
                     name="message"
