@@ -26,6 +26,12 @@
     align-items: center;
     gap: 15px;
     padding-left: 15px;
+    -ms-overflow-style: none;
+    scrollbar-width: none;
+}
+
+::-webkit-scrollbar {
+    display: none;
 }
 
 .card {

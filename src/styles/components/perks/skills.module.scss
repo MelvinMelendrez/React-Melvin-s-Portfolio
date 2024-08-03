@@ -20,15 +20,21 @@
     flex-flow: column;
 }
 
-
 .cardsContainer {
-    display: flex;
-    flex-flow: row wrap;
     height: 100%;
     width: 90%;
-    gap: 15px;
     overflow-y: scroll;
-    padding: 19px;
+    display: flex;
+    flex-flow: row wrap;
+    align-items: center;
+    gap: 15px;
+    padding-left: 15px;
+    -ms-overflow-style: none;
+    scrollbar-width: none;
+}
+
+.cardsContainer::-webkit-scrollbar {
+    display: none;
 }
 
 .card {
