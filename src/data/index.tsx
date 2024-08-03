@@ -38,7 +38,7 @@ export const projects = {
             </>
         ),
         technologies: [
-            { text: 'Javascript', image: 'https://cdn.iconscout.com/icon/free/png-512/javascript-1-225993.png' },
+            { text: 'Typescript', image: 'https://cdn.iconscout.com/icon/free/png-512/typescript-1-1175078.png' },
             { text: 'Sass', image: 'https://cdn.sanity.io/images/ohx8wpby/production/2825d163301127c72b6121baebb5e570689596e5-480x480.png' },
             { text: 'Responsive', image: 'https://cdn.sanity.io/images/ohx8wpby/production/3134ad6cae156d0e006900937251531fd5a34973-1500x938.png' },
             { text: 'Animation', image: 'https://cdn.sanity.io/images/ohx8wpby/production/0cfb370de56592ba97e8341141f766203a38c38e-400x400.png' },
@@ -46,50 +46,9 @@ export const projects = {
             { text: 'Github', image: 'https://cdn.iconscout.com/icon/free/png-512/github-170-1175028.png' },
 
         ],
-        framework: { text: "Next js", image: "https://cdn.sanity.io/images/ohx8wpby/production/b617829af6b887556765eb9baa3cd69c205a7744-3000x1811.png" },
+        framework: { text: "Next js", image: "https://cdn.sanity.io/images/ohx8wpby/production/dfb6b2915c3685329301e5be6c9d0410c98b3191-1365x1365.png" },
         liveLink: "https://next-animated-portfolio.vercel.app/",
         githubLink: "https://github.com/MelvinMelendrez/Next-Animated-Portfolio"
-    },
-    GoTravel: {
-        proyect: "GoTravel",
-        imageSrc: "https://cdn.sanity.io/images/ohx8wpby/production/bb4499fb72f84eb6818be9593b5c972f42d34b3e-370x720.jpg",
-        description: (
-            <>
-                <p>Don’t let travel hassles hold you back! Our app helps you effortlessly find restaurants and hotels no matter where you are. With an intuitive interface powered by React Navigation and Google Autocomplete, you can quickly search for dining and lodging options. The app displays real-time data from a reliable API, all styled with Tailwind CSS for a modern and user-friendly experience. Enjoy your travels with the convenience of having all your accommodation and dining needs at your fingertips!</p>
-                <p>Application that uses react navigation, google autocomplete and displays the data obtained from an api with tailwin css</p>
-            </>
-        ),
-        technologies: [
-            { text: 'Javascript', image: 'https://cdn.iconscout.com/icon/free/png-512/javascript-1-225993.png' },
-            { text: 'Sass', image: 'https://cdn.sanity.io/images/ohx8wpby/production/2825d163301127c72b6121baebb5e570689596e5-480x480.png' },
-            { text: 'Animation', image: 'https://cdn.sanity.io/images/ohx8wpby/production/0cfb370de56592ba97e8341141f766203a38c38e-400x400.png' },
-            { text: 'Github', image: 'https://cdn.iconscout.com/icon/free/png-512/github-170-1175028.png' },
-            { text: 'Framer Motion', image: 'https://cdn.sanity.io/images/ohx8wpby/production/8e8b514518628b3bff60eab330b1982adcbc3382-2500x2500.svg' },
-
-        ],
-        framework: { text: "React Native", image: "https://cdn.sanity.io/images/ohx8wpby/production/34be54263e18fa2aea611c6b3b388b76e978e7d7-64x64.png" },
-        liveLink: "https://cdn.sanity.io/images/ohx8wpby/production/9b2898a654a087fa109ff6ccbf6294de27c53636-702x1024.jpg",
-        githubLink: "https://github.com/MelvinMelendrez/ReactNative-Go-Travel"
-    },
-    HealthyBlog: {
-        proyect: "HealthyBlog",
-        imageSrc: "https://cdn.sanity.io/images/ohx8wpby/production/7f7a2f05037be61fb6538c0b96769b70fec544ed-1439x759.png",
-        description: (
-            <>
-                <p>If you want to be healthy, follow this blog. Here, you'll find a wide range of articles designed to help you improve your health and well-being. From nutrition tips to exercise routines and mental health advice, our blog offers valuable insights and practical advice for a healthier lifestyle. Stay informed, stay motivated, and take control of your health with our expert guidance.</p>
-                <p>responsive full stack blog</p>
-            </>
-        ),
-        technologies: [
-            { text: 'Javascript', image: 'https://cdn.iconscout.com/icon/free/png-512/javascript-1-225993.png' },
-            { text: 'Sass', image: 'https://cdn.sanity.io/images/ohx8wpby/production/2825d163301127c72b6121baebb5e570689596e5-480x480.png' },
-            { text: 'Responsive', image: 'https://cdn.sanity.io/images/ohx8wpby/production/3134ad6cae156d0e006900937251531fd5a34973-1500x938.png' },
-            { text: 'Sanity', image: 'https://avatars.githubusercontent.com/u/17177659?s=280&v=4' },
-            { text: 'Github', image: 'https://cdn.iconscout.com/icon/free/png-512/github-170-1175028.png' },
-        ],
-        framework: { text: "Next js", image: "https://cdn.sanity.io/images/ohx8wpby/production/b617829af6b887556765eb9baa3cd69c205a7744-3000x1811.png" },
-        liveLink: "https://blog-six-ivory.vercel.app/",
-        githubLink: "https://github.com/MelvinMelendrez/Next-Blog"
     },
     MelvinsPortfolio: {
         proyect: "MelvinsPortfolio",
@@ -112,27 +71,28 @@ export const projects = {
         liveLink: "https://melvinapp.com",
         githubLink: "https://github.com/MelvinMelendrez/melvin-s-portfolio"
     },
-    Portfolio: {
-        proyect: "React Portfolio",
-        imageSrc: "https://cdn.sanity.io/images/ohx8wpby/production/12284ecf9dc8f40d15c63481550d07b9e4fd6325-1229x787.png",
+    FoodBlog: {
+        proyect: "FoodBlog",
+        imageSrc: "https://cdn.sanity.io/images/ohx8wpby/production/7b7b5bf1fed4daee46fc41b258792bbfe9279617-1440x1714.jpg",
         description: (
             <>
-                <p>Explore my coding journey through this interactive portfolio. Built with the latest technologies, it features smooth animations and a clean, modern design. You'll find detailed projects, personal insights, and the tools I've used along the way. Dive in to see how I've grown as a developer and the exciting projects I've created.</p>
-                <p>React full stack portfolio with high order components, framer motion animation with sanity backend</p>
+                <p>Welcome to Food Blog, your go-to site for discovering and exploring delicious meals. With an intuitive interface and powerful search features, find recipes, culinary inspiration, and personalized recommendations effortlessly. Your culinary adventure starts here!</p>
+                <p>This app uses APIs, Vue Router, Vue Store, and a scalable structure, teaching API interaction, route management, layout creation, and the Vue Composition API.</p>
             </>
         ),
         technologies: [
-            { text: 'Javascript', image: 'https://cdn.iconscout.com/icon/free/png-512/javascript-1-225993.png' },
-            { text: 'Sass', image: 'https://cdn.sanity.io/images/ohx8wpby/production/2825d163301127c72b6121baebb5e570689596e5-480x480.png' },
+            { text: 'Typescript', image: 'https://cdn.iconscout.com/icon/free/png-512/typescript-1-1175078.png' },
+            { text: 'Tailwind CSS', image: 'https://cdn.sanity.io/images/ohx8wpby/production/96318c38e7abe87e605754762ee885dedd683f58-3000x1799.png' },
             { text: 'Responsive', image: 'https://cdn.sanity.io/images/ohx8wpby/production/3134ad6cae156d0e006900937251531fd5a34973-1500x938.png' },
-            { text: 'Framer Motion', image: 'https://cdn.sanity.io/images/ohx8wpby/production/8e8b514518628b3bff60eab330b1982adcbc3382-2500x2500.svg' },
             { text: 'Github', image: 'https://cdn.iconscout.com/icon/free/png-512/github-170-1175028.png' },
+            { text: 'Api', image: 'https://cdn.sanity.io/images/ohx8wpby/production/cc0bc4a239508d6ea24f5d59f73a21081fc497ca-512x512.png' },
 
         ],
-        framework: { text: "React", image: "https://cdn.sanity.io/images/ohx8wpby/production/34be54263e18fa2aea611c6b3b388b76e978e7d7-64x64.png" },
-        liveLink: "https://portfolio-krispis0.vercel.app/",
-        githubLink: "https://github.com/MelvinMelendrez/React-Portfolio"
+        framework: { text: "Vue", image: "https://cdn.sanity.io/images/ohx8wpby/production/b78be2b44dd3e918d4abd8b12f61fe90642ecc3d-593x512.png" },
+        liveLink: "https://vue-food-blog.vercel.app/",
+        githubLink: "https://github.com/MelvinMelendrez/Vue-food-blog"
     },
+
 }
 
 /// perks component
@@ -145,9 +105,10 @@ export const tags: Tag[] = [
 
 export const SkillCards: SkillCard[] = [
     { text: "React", image: "https://cdn.sanity.io/images/ohx8wpby/production/34be54263e18fa2aea611c6b3b388b76e978e7d7-64x64.png" },
-    { text: 'Next JS', image: 'https://cdn.sanity.io/images/ohx8wpby/production/b617829af6b887556765eb9baa3cd69c205a7744-3000x1811.png' },
+    { text: 'Next JS', image: 'https://cdn.sanity.io/images/ohx8wpby/production/dfb6b2915c3685329301e5be6c9d0410c98b3191-1365x1365.png' },
     { text: 'Angular', image: 'https://cdn.iconscout.com/icon/free/png-512/angular-3-226070.png' },
-    { text: "React Native", image: "https://cdn.sanity.io/images/ohx8wpby/production/34be54263e18fa2aea611c6b3b388b76e978e7d7-64x64.png" },
+    { text: "Vue", image: "https://cdn.sanity.io/images/ohx8wpby/production/b78be2b44dd3e918d4abd8b12f61fe90642ecc3d-593x512.png" },
+    // { text: "React Native", image: "https://cdn.sanity.io/images/ohx8wpby/production/34be54263e18fa2aea611c6b3b388b76e978e7d7-64x64.png" },
     { text: 'Javascript', image: 'https://cdn.iconscout.com/icon/free/png-512/javascript-1-225993.png' },
     { text: 'Typescript', image: 'https://cdn.iconscout.com/icon/free/png-512/typescript-1-1175078.png' },
     { text: 'Sass', image: 'https://cdn.sanity.io/images/ohx8wpby/production/2825d163301127c72b6121baebb5e570689596e5-480x480.png' },
@@ -166,6 +127,8 @@ export const SkillCards: SkillCard[] = [
     { text: 'Sanity', image: 'https://avatars.githubusercontent.com/u/17177659?s=280&v=4' },
     { text: 'Postman', image: 'https://cdn.sanity.io/images/ohx8wpby/production/218b0ac06a03878498195cc2d744a0cb488bcaff-3000x3000.png' },
     { text: 'Animation', image: 'https://cdn.sanity.io/images/ohx8wpby/production/0cfb370de56592ba97e8341141f766203a38c38e-400x400.png' },
+    { text: 'Api', image: 'https://cdn.sanity.io/images/ohx8wpby/production/cc0bc4a239508d6ea24f5d59f73a21081fc497ca-512x512.png' },
+
 ];
 
 export const AbilitiesCards: AbilitiesCard[] = [

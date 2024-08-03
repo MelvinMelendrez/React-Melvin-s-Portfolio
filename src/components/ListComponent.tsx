@@ -30,12 +30,12 @@ const ListComponent: React.FC<ListComponentProps> = ({ data, tabs, title = 'titl
         setModalOpen(false);
     };
 
-    const defaultTab: Tab = { tag: 'all', filtro: '' };
+    const defaultTab: Tab = { tag: 'All', filtro: '' };
     const tabList = tabs ? [defaultTab, ...tabs] : [defaultTab];
 
     const filteredPosts = data
         .filter((post) => {
-            if (activeTab === 0 && tabList[activeTab].tag === 'all') return true;
+            if (activeTab === 0 && tabList[activeTab].tag === 'All') return true;
             const categoryMatches = post.tab === tabList[activeTab].filtro;
             return categoryMatches;
         })
@@ -112,8 +112,8 @@ const ListComponent: React.FC<ListComponentProps> = ({ data, tabs, title = 'titl
                             )}
                         </div>
                         <div className={styles.icons}>
-                            <button className={styles.buttonInput} onClick={toggleTabsVisibility}>🖇️</button>
-                            <button className={styles.buttonInput} onClick={toggleInputVisibility}>🔍</button>
+                            <button className={tabsVisible ? styles.active : ''} onClick={toggleTabsVisibility}><span>🖇️</span></button>
+                            <button className={inputVisible ? styles.active : ''} onClick={toggleInputVisibility}><span>🔍</span></button>
                         </div>
                     </div>
                     <div className={styles.listContent}>
@@ -123,7 +123,22 @@ const ListComponent: React.FC<ListComponentProps> = ({ data, tabs, title = 'titl
                                     className={`${styles.tableCell} ${styles.td}`}
                                     onClick={() => handlePostClick(post)}
                                 >
-                                    {post.titulo}
+                                    <span>
+
+                                        {post.titulo}
+                                    </span>
+                                    <div className={styles.frameworkContainer}>
+                                        {post.contenido.props.framework && (
+                                            <div className={styles.frameworkInfo}>
+                                                <span>{post.contenido.props.framework.text}</span>
+                                                <img
+                                                    src={post.contenido.props.framework.image}
+                                                    alt={post.contenido.props.framework.text}
+                                                    className={styles.frameworkImage}
+                                                />
+                                            </div>
+                                        )}
+                                    </div>
                                 </div>
                             </div>
                         ))}

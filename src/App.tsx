@@ -1,6 +1,6 @@
 import Homepage from './Homepage'
 
-const App = () => {
+const App: React.FC = () => {
   return (
     <div className="container">
       <div className='line line1' />
@@ -10,7 +10,6 @@ const App = () => {
       <div className='line line5' />
       <div className='line line6' />
       <Homepage />
-
     </div>
   )
 }

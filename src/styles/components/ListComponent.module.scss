@@ -61,10 +61,41 @@
   border-radius: 4px;
 }
 
-.buttonInput {
-  background-color: transparent;
-  border: transparent;
-  margin: 5px;
+.icons {
+  display: flex;
+  gap: 5px;
+
+  button {
+    background-color: transparent;
+    border: transparent;
+    margin: 5px;
+    border-radius: 100000000px;
+    cursor: pointer;
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    span {
+      padding-top: 2px;
+      padding-bottom: 2px;
+      padding-left: 9px;
+      padding-right: 9px;
+    }
+
+    &:hover {
+      background-color: #007d1a;
+    }
+
+    &.active {
+      background-color: #03af2e;
+
+      span {
+        background-color: #00000034;
+        border-radius: 100%;
+      }
+    }
+  }
 }
 
 .tableContainer {
@@ -104,6 +135,8 @@
   border-bottom: 1px solid #ddd;
   word-break: break-word;
   cursor: pointer;
+  display: flex;
+  justify-content: space-between;
 
   &:hover {
     background-color: #ddd;
@@ -171,24 +204,33 @@
   overflow: hidden;
 }
 
-.icons {
-  display: flex;
-
-  button {
-    padding-left: 15px;
-    padding-right: 15px;
-    cursor: pointer;
-    margin: 0;
-
-
-    &:hover {
-      background-color: #007d1a;
-    }
-  }
-}
 
 @media screen and (max-width: 800px) {
   .modalOverlay {
     padding: 15px;
   }
+
+  .searchContainer {
+    width: 50%;
+    margin-left: 9px;
+    margin-right: 9px;
+  }
+}
+
+
+.frameworkImage {
+  padding-left: 9px;
+  padding-right: 9px;
+  padding-top: 5px;
+  padding-bottom: 5px;
+  width: 30px;
+  border-radius: 8px;
+  height: 21px;
+}
+
+.frameworkInfo {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 10px;
 }

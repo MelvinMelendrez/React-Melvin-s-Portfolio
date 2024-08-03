@@ -18,8 +18,9 @@ body {
 
 .header {
   display: flex;
-  height: 55%;
+  height: 60%;
   width: 100%;
+  margin-bottom: 15px;
 }
 
 .projects {
@@ -52,7 +53,7 @@ body {
   width: 1%;
   height: 500px;
   top: 20%;
-  left: 21%;
+  left: 19%;
   animation: lineShrink 2s ease-in-out infinite alternate;
 }
 
@@ -85,7 +86,7 @@ body {
   height: 500px;
   width: 1%;
   top: 20%;
-  left: 93%;
+  left: 95%;
   animation: lineGrow 2s ease-in-out infinite alternate;
 }
 
@@ -219,7 +220,7 @@ body {
   }
 
   .projects {
-    height: 380px;
+    height: 300px;
   }
 
   .line {
