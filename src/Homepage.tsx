@@ -4,7 +4,7 @@ import { MelvinProjects, MelvinProjectsTags } from "./data/projects";
 const Homepage: React.FC = () => {
 
     return (
-        <div className="container">
+        <div className="containerHomepage">
 
             <div className="header">
                 <div className="melvin">
