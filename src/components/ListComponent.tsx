@@ -1,44 +1,45 @@
+/* eslint-disable @typescript-eslint/no-unused-vars */
 import React, { useState, useEffect } from 'react';
 import styles from '../styles/components/ListComponent.module.scss';
 import { ListComponentProps, Post, Tab } from '../interfaces';
 
 const ListComponent: React.FC<ListComponentProps> = ({ data, tabs, title = 'title' }) => {
-    const [activeTab, setActiveTab] = useState(0);
     const [searchTerm, setSearchTerm] = useState('');
     const [selectedPost, setSelectedPost] = useState<Post | null>(null);
     const [modalOpen, setModalOpen] = useState(false);
     const [inputVisible, setInputVisible] = useState(false);
-    const [tabsVisible, setTabsVisible] = useState(false);
+    // const [activeTab, setActiveTab] = useState(0);
+    // const [tabsVisible, setTabsVisible] = useState(false);
 
     const toggleInputVisibility = () => {
         setInputVisible(!inputVisible);
         setSearchTerm('');
     };
 
-    const toggleTabsVisibility = () => {
-        setTabsVisible(!tabsVisible);
-        setActiveTab(0);
-    };
+    // const toggleTabsVisibility = () => {
+    //     setTabsVisible(!tabsVisible);
+    //     setActiveTab(0);
+    // };
 
     const handleSearchChange = (event: React.ChangeEvent<HTMLInputElement>) => {
         setSearchTerm(event.target.value.toLowerCase());
     };
 
-    const handleTabClick = (index: number) => {
-        setActiveTab(index);
-        setSelectedPost(null);
-        setModalOpen(false);
-    };
+    // const handleTabClick = (index: number) => {
+    //     setActiveTab(index);
+    //     setSelectedPost(null);
+    //     setModalOpen(false);
+    // };
 
-    const defaultTab: Tab = { tag: 'All', filtro: '' };
-    const tabList = tabs ? [defaultTab, ...tabs] : [defaultTab];
+    // const defaultTab: Tab = { tag: 'All', filtro: '' };
+    // const tabList = tabs ? [defaultTab, ...tabs] : [defaultTab];
 
     const filteredPosts = data
-        .filter((post) => {
-            if (activeTab === 0 && tabList[activeTab].tag === 'All') return true;
-            const categoryMatches = post.tab === tabList[activeTab].filtro;
-            return categoryMatches;
-        })
+        // .filter((post) => {
+        //     if (activeTab === 0 && tabList[activeTab].tag === 'All') return true;
+        //     const categoryMatches = post.tab === tabList[activeTab].filtro;
+        //     return categoryMatches;
+        // })
         .filter((post) => {
             const extractText = (node: React.ReactNode): string => {
                 if (typeof node === 'string') return node.toLowerCase();
@@ -78,7 +79,7 @@ const ListComponent: React.FC<ListComponentProps> = ({ data, tabs, title = 'titl
 
     return (
         <div className={styles.container}>
-            <div className={styles.tabsContainer}>
+            {/* <div className={styles.tabsContainer}>
                 <div className={styles.tabs}>
                     {tabsVisible && (
                         tabList.map((tab, index) => (
@@ -92,7 +93,7 @@ const ListComponent: React.FC<ListComponentProps> = ({ data, tabs, title = 'titl
                         ))
                     )}
                 </div>
-            </div>
+            </div> */}
 
 
             <div className={styles.tableContainer}>
@@ -112,7 +113,7 @@ const ListComponent: React.FC<ListComponentProps> = ({ data, tabs, title = 'titl
                             )}
                         </div>
                         <div className={styles.icons}>
-                            <button className={tabsVisible ? styles.active : ''} onClick={toggleTabsVisibility}><span>🖇️</span></button>
+                            {/* <button className={tabsVisible ? styles.active : ''} onClick={toggleTabsVisibility}><span>🖇️</span></button> */}
                             <button className={inputVisible ? styles.active : ''} onClick={toggleInputVisibility}><span>🔍</span></button>
                         </div>
                     </div>

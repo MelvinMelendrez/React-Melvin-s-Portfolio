@@ -22,7 +22,7 @@ body {
   position: relative;
 }
 
-@media screen and (min-height: 100vh) {
+@media screen and (max-height: 100vh) {
   .containerHomepage {
     height: auto;
     padding-bottom: 25px;
@@ -220,9 +220,10 @@ body {
     overflow: auto;
   }
 
-  .container {
-    height: auto;
+  .containerHomepage {
     gap: 1px;
+    height: auto;
+    padding-bottom: 0;
   }
 
   .header {
@@ -234,7 +235,7 @@ body {
   }
 
   .projects {
-    height: 300px;
+    height: 250px;
   }
 
   .line {
