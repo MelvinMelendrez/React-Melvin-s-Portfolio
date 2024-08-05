@@ -1,4 +1,4 @@
-import { CongratulationMessage } from '.';
+import CongratulationMessage from './CongratulationMessage';
 import Styles from '../../styles/components/perks/contactMe.module.scss'
 import { useForm, ValidationError } from '@formspree/react';
 
