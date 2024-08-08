@@ -2,7 +2,7 @@ import ProjectDetail from "../components/listComponent/ProjectDetails";
 import { projects } from ".";
 import { Post, Tab } from "../interfaces";
 
-const { Authmap, AnimatedPortfolio, MelvinsPortfolio, FoodBlog } = projects
+const { Authmap, AnimatedPortfolio, MelvinsPortfolio, FoodBlog, GoTravel, HealthyBlog } = projects
 
 export const MelvinProjects: Post[] = [
     {
@@ -42,6 +42,30 @@ export const MelvinProjects: Post[] = [
         />
     },
     {
+        titulo: '✈️🌍 Go travel',
+        tab: 'front-end',
+        contenido: <ProjectDetail
+            imageSrc={GoTravel.imageSrc}
+            description={GoTravel.description}
+            technologies={GoTravel.technologies}
+            framework={GoTravel.framework}
+            liveLink={GoTravel.liveLink}
+            githubLink={GoTravel.githubLink}
+        />
+    },
+    {
+        titulo: '🥗📖 Healthy blog',
+        tab: 'full-stack',
+        contenido: <ProjectDetail
+            imageSrc={HealthyBlog.imageSrc}
+            description={HealthyBlog.description}
+            technologies={HealthyBlog.technologies}
+            framework={HealthyBlog.framework}
+            liveLink={HealthyBlog.liveLink}
+            githubLink={HealthyBlog.githubLink}
+        />
+    },
+    {
         titulo: "👨‍💻 📁 Melvin's portfolio",
         tab: 'React',
         contenido: <ProjectDetail
@@ -61,4 +85,5 @@ export const MelvinProjectsTags: Tab[] = [
     { tag: 'Next', filtro: 'Next' },
     { tag: 'Vue', filtro: 'Vue' },
 ];
+
 

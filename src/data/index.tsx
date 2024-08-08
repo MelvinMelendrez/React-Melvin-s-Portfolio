@@ -92,6 +92,47 @@ export const projects = {
         liveLink: "https://vue-food-blog.vercel.app/",
         githubLink: "https://github.com/MelvinMelendrez/Vue-food-blog"
     },
+    GoTravel: {
+        proyect: "GoTravel",
+        imageSrc: "https://cdn.sanity.io/images/ohx8wpby/production/bb4499fb72f84eb6818be9593b5c972f42d34b3e-370x720.jpg",
+        description: (
+            <>
+                <p>Don’t let travel hassles hold you back! Our app helps you effortlessly find restaurants and hotels no matter where you are. With an intuitive interface powered by React Navigation and Google Autocomplete, you can quickly search for dining and lodging options. The app displays real-time data from a reliable API, all styled with Tailwind CSS for a modern and user-friendly experience. Enjoy your travels with the convenience of having all your accommodation and dining needs at your fingertips!</p>
+                <p>Application that uses react navigation, google autocomplete and displays the data obtained from an api with tailwin css</p>
+            </>
+        ),
+        technologies: [
+            { text: 'Javascript', image: 'https://cdn.iconscout.com/icon/free/png-512/javascript-1-225993.png' },
+            { text: 'Sass', image: 'https://cdn.sanity.io/images/ohx8wpby/production/2825d163301127c72b6121baebb5e570689596e5-480x480.png' },
+            { text: 'Animation', image: 'https://cdn.sanity.io/images/ohx8wpby/production/0cfb370de56592ba97e8341141f766203a38c38e-400x400.png' },
+            { text: 'Github', image: 'https://cdn.iconscout.com/icon/free/png-512/github-170-1175028.png' },
+            { text: 'Framer Motion', image: 'https://cdn.sanity.io/images/ohx8wpby/production/8e8b514518628b3bff60eab330b1982adcbc3382-2500x2500.svg' },
+
+        ],
+        framework: { text: "React Native", image: "https://cdn.sanity.io/images/ohx8wpby/production/34be54263e18fa2aea611c6b3b388b76e978e7d7-64x64.png" },
+        liveLink: "https://cdn.sanity.io/images/ohx8wpby/production/9b2898a654a087fa109ff6ccbf6294de27c53636-702x1024.jpg",
+        githubLink: "https://github.com/MelvinMelendrez/ReactNative-Go-Travel"
+    },
+    HealthyBlog: {
+        proyect: "HealthyBlog",
+        imageSrc: "https://cdn.sanity.io/images/ohx8wpby/production/19fdc2bb0aa3b0a1faf5646cb8b7d2c8dde2ede9-1440x1520.jpg",
+        description: (
+            <>
+                <p>If you want to be healthy, follow this blog. Here, you'll find a wide range of articles designed to help you improve your health and well-being. From nutrition tips to exercise routines and mental health advice, our blog offers valuable insights and practical advice for a healthier lifestyle. Stay informed, stay motivated, and take control of your health with our expert guidance.</p>
+                <p>responsive full stack blog</p>
+            </>
+        ),
+        technologies: [
+            { text: 'Javascript', image: 'https://cdn.iconscout.com/icon/free/png-512/javascript-1-225993.png' },
+            { text: 'Responsive', image: 'https://cdn.sanity.io/images/ohx8wpby/production/3134ad6cae156d0e006900937251531fd5a34973-1500x938.png' },
+            { text: 'Sass', image: 'https://cdn.sanity.io/images/ohx8wpby/production/2825d163301127c72b6121baebb5e570689596e5-480x480.png' },
+            { text: 'Sanity', image: 'https://avatars.githubusercontent.com/u/17177659?s=280&v=4' },
+            { text: 'Github', image: 'https://cdn.iconscout.com/icon/free/png-512/github-170-1175028.png' },
+        ],
+        framework: { text: "Next js", image: "https://cdn.sanity.io/images/ohx8wpby/production/b617829af6b887556765eb9baa3cd69c205a7744-3000x1811.png" },
+        liveLink: "https://blog-six-ivory.vercel.app/",
+        githubLink: "https://github.com/MelvinMelendrez/Next-Blog"
+    },
 
 }
 
