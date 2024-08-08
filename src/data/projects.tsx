@@ -85,5 +85,3 @@ export const MelvinProjectsTags: Tab[] = [
     { tag: 'Next', filtro: 'Next' },
     { tag: 'Vue', filtro: 'Vue' },
 ];
-
-
