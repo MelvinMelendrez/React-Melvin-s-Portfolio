@@ -234,3 +234,15 @@
   justify-content: center;
   gap: 10px;
 }
+
+@media screen and (max-width: 900px) {
+  .modalContent {
+    max-width: 95%;
+  }
+}
+
+@media screen and (max-width: 800px) {
+  .modalContent {
+    width: auto;
+  }
+}
