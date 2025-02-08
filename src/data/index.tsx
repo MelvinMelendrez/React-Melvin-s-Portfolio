@@ -115,7 +115,7 @@ export const projects = {
     },
     HealthyBlog: {
         proyect: "HealthyBlog",
-        imageSrc: "https://cdn.sanity.io/images/ohx8wpby/production/19fdc2bb0aa3b0a1faf5646cb8b7d2c8dde2ede9-1440x1520.jpg",
+        imageSrc: "https://cdn.sanity.io/images/ohx8wpby/production/dfb6b2915c3685329301e5be6c9d0410c98b3191-1365x1365.png",
         description: (
             <>
                 <p>If you want to be healthy, follow this blog. Here, you'll find a wide range of articles designed to help you improve your health and well-being. From nutrition tips to exercise routines and mental health advice, our blog offers valuable insights and practical advice for a healthier lifestyle. Stay informed, stay motivated, and take control of your health with our expert guidance.</p>
@@ -129,7 +129,7 @@ export const projects = {
             { text: 'Sanity', image: 'https://avatars.githubusercontent.com/u/17177659?s=280&v=4' },
             { text: 'Github', image: 'https://cdn.iconscout.com/icon/free/png-512/github-170-1175028.png' },
         ],
-        framework: { text: "Next js", image: "https://cdn.sanity.io/images/ohx8wpby/production/7f7a2f05037be61fb6538c0b96769b70fec544ed-1439x759.png" },
+        framework: { text: "Next js", image: "https://cdn.sanity.io/images/ohx8wpby/production/dfb6b2915c3685329301e5be6c9d0410c98b3191-1365x1365.png" },
         liveLink: "https://blog-six-ivory.vercel.app/",
         githubLink: "https://github.com/MelvinMelendrez/Next-Blog"
     },
