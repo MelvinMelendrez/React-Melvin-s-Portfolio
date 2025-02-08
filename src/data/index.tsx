@@ -115,7 +115,7 @@ export const projects = {
     },
     HealthyBlog: {
         proyect: "HealthyBlog",
-        imageSrc: "https://cdn.sanity.io/images/ohx8wpby/production/dfb6b2915c3685329301e5be6c9d0410c98b3191-1365x1365.png",
+        imageSrc: "https://cdn.sanity.io/images/ohx8wpby/production/7f7a2f05037be61fb6538c0b96769b70fec544ed-1439x759.png",
         description: (
             <>
                 <p>If you want to be healthy, follow this blog. Here, you'll find a wide range of articles designed to help you improve your health and well-being. From nutrition tips to exercise routines and mental health advice, our blog offers valuable insights and practical advice for a healthier lifestyle. Stay informed, stay motivated, and take control of your health with our expert guidance.</p>
