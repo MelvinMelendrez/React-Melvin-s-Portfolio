@@ -129,7 +129,7 @@ export const projects = {
             { text: 'Sanity', image: 'https://avatars.githubusercontent.com/u/17177659?s=280&v=4' },
             { text: 'Github', image: 'https://cdn.iconscout.com/icon/free/png-512/github-170-1175028.png' },
         ],
-        framework: { text: "Next js", image: "https://cdn.sanity.io/images/ohx8wpby/production/dfb6b2915c3685329301e5be6c9d0410c98b3191-1365x1365.png" },
+        framework: { text: "Next js", image: "https://cdn.sanity.io/images/ohx8wpby/production/7f7a2f05037be61fb6538c0b96769b70fec544ed-1439x759.png" },
         liveLink: "https://blog-six-ivory.vercel.app/",
         githubLink: "https://github.com/MelvinMelendrez/Next-Blog"
     },
